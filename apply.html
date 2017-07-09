@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Clean Blog - About</title>
+    <title>Tiny Apartment - Apply</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -96,9 +96,67 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <p>Are you an artist that wants to participate in the Tiny Apartment artist in residence? Apply now! Next residences will begin mid-August 2017.</p>
             <div class="row">
-                        <div class="form-group col-xs-12">
+                        <!--<div class="form-group col-xs-12">
                             <a href="https://docs.google.com/forms/d/17sExmFt46-6ZHop7Aq_eaIPfTxv6H57mQ3K4ZFAtOwg/viewform?edit_requested=true" target="_blank"><button type="submit" class="btn btn-default">click here to apply </button></a>
+                        </div>-->
+                         <form name="sentMessage" id="contactForm" novalidate>
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>Name</label>
+                            <input type="text" class="form-control" placeholder="Name" id="app-name" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block text-danger"></p>
                         </div>
+                    </div>
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>Email Address</label>
+                            <input type="email" class="form-control" placeholder="Email Address" id="app-email" required data-validation-required-message="Please enter your email address.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>Website/Portfolio</label>
+                            <input type="tel" class="form-control" placeholder="Website/Portfolio" id="app-web" required data-validation-required-message="Please enter a response.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>What is your availability to begin the residency? </label>
+                            <textarea rows="1" class="form-control" placeholder="What is your availability to begin the residency? " id="app-q1" required data-validation-required-message="Please enter a response."></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                     <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>Can you commit to one month in residence?</label>
+                            <textarea rows="1" class="form-control" placeholder="Can you commit to one month in residence?" id="app-q2" required data-validation-required-message="Please enter a response."></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                        <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>Describe your art practise</label>
+                            <textarea rows="5" class="form-control" placeholder="Describe your art practise" id="app-q3" required data-validation-required-message="Please enter a response."></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                       <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>Why do you want to participate in the Tiny Apartment program?</label>
+                            <textarea rows="5" class="form-control" placeholder="Describe your art practise" id="app-q4" required data-validation-required-message="Please enter a response."></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="success"></div>
+                    <div class="row">
+                        <div class="form-group col-xs-12">
+                            <button type="submit" class="btn btn-default send-btn">Send</button>
+                        </div>
+                    </div>
+                </form>
                     </div>
             </div>
         </div>

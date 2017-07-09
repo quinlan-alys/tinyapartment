@@ -442,3 +442,6 @@ body {
 .container .row p em {
   color: #777777;
 }
+.fade {
+  opacity: 1 !important;
+}
