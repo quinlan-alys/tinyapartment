@@ -381,6 +381,7 @@ form .row:first-child .floating-label-form-group {
   background-color: #ffdb58;
   border: 1px solid #ffdb58;
   color: white;
+  outline: none;
 }
 .pager {
   margin: 20px 0 0;
